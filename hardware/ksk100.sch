@@ -58,6 +58,7 @@ F2 "PC[0..15]" I L 2050 2750 60
 F3 "PB[0..15]" I R 3150 2750 60 
 F4 "PA[0..15]" I R 3150 2400 60 
 F5 "nRESET" I L 2050 2400 60 
+F6 "BOOT" I L 2050 2250 60 
 $EndSheet
 $Comp
 L ESP-12F U3
@@ -1344,4 +1345,10 @@ F 3 "" H 9850 5900 50  0001 C CNN
 	1    9850 5900
 	1    0    0    -1  
 $EndComp
+Text Label 1850 2250 2    60   ~ 0
+BOOT
+Wire Wire Line
+	1850 2250 2050 2250
+Text Label 4300 1700 2    60   ~ 0
+BOOT
 $EndSCHEMATC

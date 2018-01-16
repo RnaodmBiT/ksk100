@@ -851,4 +851,6 @@ Text Label 2550 4700 0    60   ~ 0
 PC14
 Text Label 2550 4800 0    60   ~ 0
 PC15
+Text HLabel 1150 1300 2    60   Input ~ 0
+BOOT
 $EndSCHEMATC
